@@ -1,0 +1,31 @@
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.box{
+    padding-top: 15em;
+}
+.shadow:hover{
+    background-color: darkgreen;
+}
+.contact{
+    color: black;
+}
+.contact:hover{
+    color: white !important;
+    text-decoration: none;
+}
+.transform{
+    transform: scale(0.9);
+    transition: 2s ease-in;
+}
+.transform:hover{
+    transform: scale(1);
+}
+@media only screen and (max-width:450px){
+    .display-3{
+        font-size: 2.5em;
+    }
+    .outcome{
+        font-size: 1em;
+    }
+}
